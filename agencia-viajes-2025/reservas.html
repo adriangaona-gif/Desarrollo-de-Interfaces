@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas | Agencia de Viajes 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Agencia de Viajes 2025</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="ofertas.html">Ofertas</a>
+    </nav>
+
+    <main>
+        <h2>Formulario de Reserva</h2>
+        <form id="reservaForm" class="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="destino">Destino:</label>
+            <select id="destino" required>
+                <option value="">Selecciona un destino</option>
+                <option>Japón</option>
+                <option>Tailandia</option>
+                <option>Los Ángeles</option>
+                <option>Canarias</option>
+            </select>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+
+            <button type="submit">Confirmar Reserva</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 Agencia de Viajes 2025</p>
+    </footer>
+</body>
+</html>
